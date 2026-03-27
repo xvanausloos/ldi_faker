@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ldi-faker-pii-demo"
+version = "0.1.0"
+description = "Scaffold project to test Faker pseudonymization of PII"
+requires-python = ">=3.9"
+dependencies = [
+  "Faker",
+]
